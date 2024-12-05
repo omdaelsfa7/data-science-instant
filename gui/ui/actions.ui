@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>961</width>
+    <height>771</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>961</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#404066;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>70</y>
+       <width>291</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:30px ; 
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Welcome user1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="Balance">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>190</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white ; </string>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:30px ; 
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>current balance </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Transfer_Money_B">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>330</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:20px ; 
+background-color: rgb(115, 115, 115);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Transfer money</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Withdraw_B">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>330</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:20px ; 
+background-color: rgb(115, 115, 115);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Withdraw</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Edit_Acc_B">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>510</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:20px ; 
+background-color: rgb(115, 115, 115);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Edit account</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Deposit_Money_B">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>510</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:20px ; 
+background-color: rgb(115, 115, 115);
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Deposit money </string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>961</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
